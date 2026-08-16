@@ -1,0 +1,38 @@
+:root {
+  --bg: #f3eee4;
+  --ink: #1b1814;
+  --mute: #5e574e;
+  --rule: #cfc4b0;
+  --link: #1b1814;
+}
+* { box-sizing: border-box; }
+html { font-size: 19px; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  line-height: 1.55;
+}
+a { color: var(--link); text-underline-offset: 0.18em; }
+a:hover { text-decoration-thickness: 2px; }
+header, main, footer { width: min(40rem, calc(100% - 2.4rem)); margin-left: auto; margin-right: auto; }
+header { padding: 2.2rem 0 1.4rem; border-bottom: 1px solid var(--rule); }
+header .name { font-size: 1.35rem; letter-spacing: 0.01em; }
+header .name a { color: inherit; text-decoration: none; }
+nav { margin-top: 0.85rem; font-family: ui-sans-serif, system-ui, sans-serif; font-size: 0.72rem; letter-spacing: 0.04em; text-transform: uppercase; }
+nav ul { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 0.35rem 1rem; }
+nav a { text-decoration: none; color: var(--mute); }
+nav a:hover, nav a[aria-current="page"] { color: var(--ink); text-decoration: underline; }
+main { padding: 2rem 0 3.5rem; }
+h1 { font-size: 1.7rem; font-weight: 500; line-height: 1.2; margin: 0 0 1rem; }
+h2 { font-size: 1.15rem; font-weight: 500; margin: 2rem 0 0.6rem; }
+p { margin: 0 0 1rem; }
+.lead { color: var(--mute); }
+ul.list { list-style: none; padding: 0; margin: 0; }
+ul.list li { padding: 0.85rem 0; border-top: 1px solid var(--rule); }
+ul.list li:last-child { border-bottom: 1px solid var(--rule); }
+ul.list .meta { display: block; font-family: ui-sans-serif, system-ui, sans-serif; font-size: 0.72rem; letter-spacing: 0.03em; text-transform: uppercase; color: var(--mute); margin-bottom: 0.2rem; }
+blockquote { margin: 1.2rem 0; padding: 0 0 0 1rem; border-left: 2px solid var(--rule); color: var(--ink); }
+footer { padding: 0 0 2.4rem; color: var(--mute); font-family: ui-sans-serif, system-ui, sans-serif; font-size: 0.78rem; }
+footer a { color: inherit; }
