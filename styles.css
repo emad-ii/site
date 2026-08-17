@@ -36,3 +36,5 @@ ul.list .meta { display: block; font-family: ui-sans-serif, system-ui, sans-seri
 blockquote { margin: 1.2rem 0; padding: 0 0 0 1rem; border-left: 2px solid var(--rule); color: var(--ink); }
 footer { padding: 0 0 2.4rem; color: var(--mute); font-family: ui-sans-serif, system-ui, sans-serif; font-size: 0.78rem; }
 footer a { color: inherit; }
+
+ul.list .kind { display: block; font-family: ui-sans-serif, system-ui, sans-serif; font-size: 0.72rem; color: var(--mute); margin-top: 0.2rem; }
